@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "models": [
+    {
+      "id": "nikke-rupee-winter-shopper",
+      "label": "RUPEE / WINTER SHOPPER",
+      "version": "1.0.0",
+      "path": "models/nikke-rupee-winter-shopper/1.0.0/model.json"
+    }
+  ]
+}

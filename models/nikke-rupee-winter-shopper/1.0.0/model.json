@@ -1,0 +1,18 @@
+{
+  "id": "nikke-rupee-winter-shopper",
+  "label": "RUPEE / WINTER SHOPPER",
+  "assetVersion": "1.0.0",
+  "spineExportVersion": "4.0.47",
+  "skeleton": "c203_00.skel",
+  "skeletonType": "binary",
+  "atlas": "c203_00.atlas",
+  "textures": [
+    "c203_00.png"
+  ],
+  "defaultAnimation": "idle",
+  "loop": true,
+  "scale": 0.35,
+  "premultipliedAlpha": true,
+  "source": "https://github.com/hebin1979/nikke-rupee-winter-viewer",
+  "licenseNote": "Third-party development asset. Confirm redistribution rights before public hosting."
+}

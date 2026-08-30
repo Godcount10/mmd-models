@@ -1,0 +1,4 @@
+*.skel binary
+*.png binary
+*.atlas text
+*.json text
