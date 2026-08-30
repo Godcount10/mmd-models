@@ -11,12 +11,22 @@ models/<model-id>/<asset-version>/
   *.skel or *.json
   *.atlas
   atlas page textures (*.png)
+  model.js
   model.json
 ```
 
 The skeleton, atlas, and every texture referenced by the atlas must remain in
 the same version directory. Do not rename an atlas page without updating the
 atlas file.
+
+`model.js` is a generated browser package containing the skeleton and atlas as
+Base64 data. The MMD stage allows external scripts but restricts cross-origin
+XHR, so HOST loads this file with a `<script src>` tag and loads atlas page
+textures as images. Regenerate it after changing the Spine export:
+
+```powershell
+node scripts/build-spine-package.mjs
+```
 
 ## Current model
 

@@ -6,6 +6,8 @@
   "skeleton": "c203_00.skel",
   "skeletonType": "binary",
   "atlas": "c203_00.atlas",
+  "packageScript": "model.js",
+  "packageKey": "nikke-rupee-winter-shopper",
   "textures": [
     "c203_00.png"
   ],
